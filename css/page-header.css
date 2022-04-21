@@ -48,6 +48,7 @@
   margin-right: 60px;
   margin-left: auto;
   display: flex;
+  flex-wrap: wrap;
   margin-top: 60px;
 }
 
@@ -94,6 +95,13 @@
 
 .site-list__item--active a {
   margin-left: 0;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 160%;
+  color: #FF4B32;
+  opacity: 1;
 }
 
 .user-list {
