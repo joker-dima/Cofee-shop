@@ -6,56 +6,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee shop</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&family=PT+Sans+Narrow&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&family=PT+Sans+Narrow&family=Poppins:wght@400;600;700&family=Roboto:ital@1&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&family=Open+Sans:wght@400;600&family=PT+Sans+Narrow&family=Poppins:wght@400;600;700&family=Roboto:ital@1&display=swap"
+        rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="normalize.css" rel="stylesheet">
 </head>
 
 <body class="page__body">
 
 
     <header class="page-header">
-        <div class="logo-wrapper">
+        <div class="nav-wrapper">
+
             <a class="page__logo">
                 <img src="img/logo.svg" alt="Coffee shop logo" width="50" height="50">
-                <span class="logo-title">Coffe</span>
+                <span class="logo__title">Coffee</span>
             </a>
-        </div>
 
-        <nav class="main-nav">
-            <button class="main-nav__toggle" type="button">
-                <span class="visually-hidden">Открыть меню</span>
-            </button>
 
-            <div class="main-nav_wrapper">
-                <ul class="nain-nav__list site-list">
+            <nav class="main-nav">
+                <button class="main-nav__toggle" type="button">
+                    <span class="visually-hidden">Открыть меню</span>
+                </button>
+
+
+                <ul class="main-nav__list site-list">
                     <li class="site-list__item site-list__item--active">
-                        <a>Home</a>
+                        <a href="#">Home</a>
                     </li>
                     <li class="site-list__item">
-                        <a>About us</a>
+                        <a href="#">About us</a>
                     </li>
                     <li class="site-list__item">
-                        <a>Menu</a>
+                        <a href="#">Menu</a>
                     </li>
                     <li class="site-list__item">
-                        <a>Review</a>
+                        <a href="#">Review</a>
                     </li>
                     <li class="site-list__item">
-                        <a>Contact</a>
+                        <a href="#">Contact</a>
                     </li>
                 </ul>
+            </nav>
 
-                <div class="nain-nav__list user-list">
-                    <div class="search">
-                        <img src="img/search-icon.svg" alt="Search icon" class="search__icon" width="49" height="49">
-                    </div>
-                    <div class="cart">
-                        <img src="img/cart-icon.svg" alt="Cart icon" class="cart__icon" width="41" height="39">
-                        <p class="cart__number">2</p>
-                    </div>
+            <div class="user-list">
+
+                <a href="#" class="search">
+
+                    <img src="img/search-icon-2.svg" alt="Search icon" class="search__icon" width="49" height="49">
+                    <img src="img/search-icon.svg" alt="Search icon" class="search__icon-2" height="22">
+                    <input type="search" class="visually-hidden">
+                </a>
+                <div class="cart">
+                    <img src="img/cart-icon.svg" alt="Cart icon" class="cart__icon" width="41" height="39">
+                    <p class="cart__number">2</p>
                 </div>
-
             </div>
 
-        </nav>
+        </div>
+
+
+        </div>
         <div class="appeal">
             <p class="appeal__slogan">Keep your dreams aroused with a cup of coffee.</p>
             <p class="appeal__intro">The coffee ideas shared by these generators are not cool at all, as they are not a

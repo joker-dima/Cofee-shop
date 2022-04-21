@@ -1,0 +1,27 @@
+.page-header {
+    background-color: black;
+    color: white;
+    margin: 0;
+    width: 100%;
+}
+
+;
+
+.nav-wrapper {
+    @media (min-width: 320px) {
+        min-width: 280px;
+        padding: 0 20px;
+    }
+
+
+    @media (min-width: 856px) {
+
+        min-width: 640px;
+        padding: 0 64px;
+    }
+
+    @media (min-width: 1440px) {
+        min-width: 1148px;
+        padding: 0 146px;
+    }
+}

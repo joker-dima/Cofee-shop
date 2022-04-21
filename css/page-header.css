@@ -1,0 +1,28 @@
+.page-header {
+  background-color: black;
+  color: white;
+  margin: 0;
+  width: 100%;
+}
+
+@media (min-width: 320px) {
+  .nav-wrapper {
+    min-width: 280px;
+    padding: 0 20px;
+  }
+}
+
+@media (min-width: 856px) {
+  .nav-wrapper {
+    min-width: 640px;
+    padding: 0 64px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .nav-wrapper {
+    min-width: 1148px;
+    padding: 0 146px;
+  }
+}
+/*# sourceMappingURL=page-header.css.map */

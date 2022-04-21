@@ -1,0 +1,170 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+}
+
+.page-header {
+  background-color: black;
+  color: white;
+  margin: 0;
+  width: 100%;
+}
+
+@media (min-width: 320px) {
+  .nav-wrapper {
+    min-width: 280px;
+    padding: 0 20px;
+  }
+}
+
+@media (min-width: 856px) {
+  .nav-wrapper {
+    min-width: 640px;
+    padding: 0 64px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .nav-wrapper {
+    min-width: 1148px;
+    padding: 0 146px;
+  }
+}
+
+.page__logo {
+  position: relative;
+  height: 50px;
+  display: flex;
+  margin-top: 10px;
+  margin-right: auto;
+  outline: 5px dotted blue;
+}
+
+@media (min-width: 856px) {
+  .page__logo {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 320px) {
+  .page__logo {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .page__logo {
+    margin-right: 0;
+  }
+}
+
+.logo__title {
+  font-family: 'Josefin Sans';
+  color: #FF4B32;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 130%;
+  margin-top: 19px;
+  margin-left: 11px;
+}
+
+@media (min-width: 320px) {
+  .main-nav__toggle {
+    display: none;
+  }
+}
+
+.nav-wrapper {
+  outline: 5px dotted green;
+  outline-offset: -5px;
+  display: flex;
+}
+
+@media (max-width: 1440px) {
+  .nav-wrapper {
+    justify-content: space-between;
+  }
+}
+
+.main-nav__list {
+  outline: 3px dashed red;
+  margin: 0;
+  padding: 0;
+  margin-right: 60px;
+  margin-left: auto;
+  display: flex;
+  margin-top: 60px;
+}
+
+@media (max-width: 1440px) {
+  .main-nav__list {
+    margin-right: 0;
+  }
+}
+
+.site-list__item {
+  list-style: none;
+}
+
+.site-list__item a {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: white;
+  text-decoration: none;
+  opacity: 0.6;
+  margin-left: 49px;
+}
+
+.site-list__item--active a {
+  margin-left: 0;
+}
+
+.user-list {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: auto;
+  display: flex;
+  outline: 3px dotted red;
+  margin-top: 50px;
+}
+
+.search {
+  width: 49px;
+  height: 49px;
+}
+
+.search__icon-2 {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+}
+
+.cart {
+  display: flex;
+  margin-left: 38px;
+}
+
+.cart__number {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  line-height: 20px;
+  text-align: center;
+  background: #FF4B32;
+  margin-left: -10px;
+  margin-top: -4px;
+}
+/*# sourceMappingURL=style.css.map */
