@@ -46,6 +46,13 @@
         margin-right: 0;
     }
 
+    ;
+
+    @media (max-width: 830px) {
+        flex-direction: column;
+    }
+
+
 }
 
 ;
@@ -63,6 +70,18 @@
         text-decoration: none;
         opacity: 0.6;
         margin-left: 49px;
+
+        @media (max-width: 1440px) {
+            margin-left: 22px;
+
+        }
+
+        ;
+
+        @media (max-width: 830px) {
+            margin-left: 0;
+
+        }
 
 
 
