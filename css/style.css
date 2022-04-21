@@ -149,6 +149,12 @@
   margin-top: 50px;
 }
 
+@media (max-width: 830px) {
+  .user-list {
+    margin-top: 20px;
+  }
+}
+
 .search {
   width: 49px;
   height: 49px;
