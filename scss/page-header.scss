@@ -1,3 +1,5 @@
+// GLOBAL WRAPPER
+
 .page-header {
     background-color: black;
     color: white;
@@ -25,3 +27,156 @@
         padding: 0 146px;
     }
 }
+
+;
+
+// MOBILE MENU BUTTON
+
+@media (min-width: 320px) {
+    .main-nav__toggle {
+        display: none;
+    }
+}
+
+;
+
+// NAVIGATION
+.nav-wrapper {
+    display: flex;
+
+    @media (max-width: 1440px) {
+        justify-content: space-between;
+    }
+
+}
+
+;
+
+
+.main-nav__list {
+    margin: 0;
+    padding: 0;
+    margin-right: 60px;
+    margin-left: auto;
+    display: flex;
+    margin-top: 60px;
+
+    @media (max-width: 1440px) {
+        margin-right: 0;
+    }
+
+    ;
+
+    @media (max-width: 830px) {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+
+}
+
+;
+
+.site-list__item {
+    list-style: none;
+
+    a {
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 160%;
+        color: white;
+        text-decoration: none;
+        opacity: 0.6;
+        margin-left: 49px;
+
+
+
+        @media (max-width: 1440px) {
+            margin-left: 22px;
+
+        }
+
+        ;
+
+        @media (max-width: 830px) {
+            margin-left: 0;
+            margin-bottom: 30px;
+
+        }
+    }
+}
+
+;
+
+.site-list__item--active {
+    a {
+        margin-left: 0;
+    }
+}
+
+
+
+// USER NAVIGATION
+
+
+
+.user-list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: auto;
+    display: flex;
+    margin-top: 50px;
+
+    @media (max-width:830px) {
+        margin-top: 20px;
+
+    }
+}
+
+;
+
+.search {
+    width: 49px;
+    height: 49px;
+}
+
+
+.search__icon-2 {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+}
+
+;
+
+.cart {
+    display: flex;
+    margin-left: 38px;
+
+    @media (max-width: 830px) {
+        margin-left: 18px;
+    }
+}
+
+;
+
+.cart__number {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+    background: #FF4B32;
+    margin-left: -10px;
+    margin-top: -4px
+}
+
+
+;
