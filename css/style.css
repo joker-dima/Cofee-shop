@@ -41,20 +41,14 @@
   position: relative;
   height: 50px;
   display: flex;
-  margin-top: 10px;
+  margin-top: 50px;
   margin-right: auto;
   outline: 5px dotted blue;
 }
 
-@media (min-width: 856px) {
+@media (max-width: 830px) {
   .page__logo {
-    margin-top: 50px;
-  }
-}
-
-@media (min-width: 320px) {
-  .page__logo {
-    margin-top: 50px;
+    margin-top: 20px;
   }
 }
 
