@@ -69,7 +69,7 @@
   margin-top: 60px;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
   .main-nav__list {
     margin-right: 0;
   }
@@ -102,7 +102,7 @@
   opacity: 1;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
   .site-list__item a {
     margin-left: 22px;
   }
@@ -192,7 +192,7 @@
   }
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
   .page__logo {
     margin-right: 0;
   }
@@ -294,7 +294,7 @@ button {
   }
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
   .button-adaptive {
     padding: 13px 28px;
   }

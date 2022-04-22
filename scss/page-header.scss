@@ -9,6 +9,7 @@
     background-position: top right;
     background-repeat: no-repeat;
 
+
 }
 
 ;
@@ -73,7 +74,7 @@
     flex-wrap: wrap;
     margin-top: 60px;
 
-    @media (max-width: 1440px) {
+    @media (max-width: 1439px) {
         margin-right: 0;
     }
 
@@ -110,7 +111,7 @@
         ;
 
 
-        @media (max-width: 1440px) {
+        @media (max-width: 1439px) {
             margin-left: 22px;
 
         }
