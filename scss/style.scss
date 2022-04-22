@@ -21,11 +21,33 @@
 @import "nameing-section";
 
 
-.shop {}
+.shop {
+    margin-top: 140px;
+    padding-left: 50px;
+
+    @media (min-width: 320px) {
+        min-width: 280px;
+        padding: 0 20px;
+    }
+
+
+    @media (min-width: 830px) {
+
+        min-width: 640px;
+        padding: 0 64px;
+    }
+
+    @media (min-width: 1440px) {
+        min-width: 1148px;
+        padding: 0 146px;
+    }
+}
+
+;
 
 .nameing-section__toggle {
     display: flex;
-    margin-top: 140px;
+
 
 }
 
@@ -43,3 +65,16 @@
 }
 
 ;
+
+.shop__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+
+
+.shop__list {
+    margin: 0;
+    padding: 0;
+}

@@ -315,9 +315,34 @@ button {
   line-height: 160%;
 }
 
+.shop {
+  margin-top: 140px;
+  padding-left: 50px;
+}
+
+@media (min-width: 320px) {
+  .shop {
+    min-width: 280px;
+    padding: 0 20px;
+  }
+}
+
+@media (min-width: 830px) {
+  .shop {
+    min-width: 640px;
+    padding: 0 64px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .shop {
+    min-width: 1148px;
+    padding: 0 146px;
+  }
+}
+
 .nameing-section__toggle {
   display: flex;
-  margin-top: 140px;
 }
 
 .toggle {
@@ -328,5 +353,17 @@ button {
 
 .toggle__button:first-child {
   margin-right: 20px;
+}
+
+.shop__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+
+.shop__list {
+  margin: 0;
+  padding: 0;
 }
 /*# sourceMappingURL=style.css.map */
