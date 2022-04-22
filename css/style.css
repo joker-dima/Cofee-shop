@@ -315,9 +315,15 @@ button {
   line-height: 160%;
 }
 
+.nameing-section__toggle {
+  display: flex;
+  margin-top: 140px;
+}
+
 .toggle {
   width: 116px;
   margin-left: auto;
+  margin-top: 5px;
 }
 
 .toggle__button:first-child {

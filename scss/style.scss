@@ -20,14 +20,20 @@
 
 @import "nameing-section";
 
-// .shop {
-//     margin-top: 140px;
-//     margin-left: 145px;
-// }
+
+.shop {}
+
+.nameing-section__toggle {
+    display: flex;
+    margin-top: 140px;
+
+}
 
 .toggle {
     width: 116px;
     margin-left: auto;
+    margin-top: 5px;
+
 }
 
 ;
