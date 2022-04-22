@@ -48,17 +48,48 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 160%;
+    margin: 0;
+    padding: 0;
 }
 
 
 
 // TABLE
 
-.shop-table {
-    border-collapse: collapse;
-    border: 2px solid black;
+.shop__order {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
 }
 
+
+.shop-table {
+    display: inline-block;
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-right: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+
+    & td:nth-of-type(1) {
+        width: 53.5px;
+        height: 22px;
+        text-align: center;
+    }
+
+    & td:nth-of-type(2) {
+        height: 22px;
+        text-align: center;
+    }
+
+
+}
+
+;
 
 
 
