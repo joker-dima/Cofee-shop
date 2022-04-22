@@ -1,19 +1,24 @@
 .appeal {
-  margin-left: 145px;
-  padding-bottom: 110px;
-}
-
-@media (max-width: 1440px) {
-  .appeal {
-    padding-bottom: 50px;
-    margin-left: 50px;
-  }
+  padding-bottom: 126px;
 }
 
 @media (max-width: 830px) {
   .appeal {
     padding-bottom: 50px;
-    margin-left: 20px;
+    margin-left: 64px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .appeal {
+    padding: 1rem calc(50% - 575px);
+    padding-bottom: 126px;
+  }
+}
+
+@media (max-width: 1439px) {
+  .appeal {
+    padding-left: 64px;
   }
 }
 

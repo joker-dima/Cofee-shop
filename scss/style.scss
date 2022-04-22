@@ -21,6 +21,47 @@
 @import "nameing-section";
 
 
+
+.shop__item {
+    list-style: none;
+}
+
+.item__price {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.item__title {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+}
+
+.item__description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+
+
+// TABLE
+
+.shop-table {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+
+
+
 .shop {
     margin-top: 140px;
     padding-left: 50px;

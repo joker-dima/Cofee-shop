@@ -8,6 +8,10 @@
   background-repeat: no-repeat;
 }
 
+.nav-wrapper {
+  padding: 1rem;
+}
+
 @media (min-width: 320px) {
   .nav-wrapper {
     min-width: 280px;
@@ -24,8 +28,7 @@
 
 @media (min-width: 1440px) {
   .nav-wrapper {
-    min-width: 1148px;
-    padding: 0 146px;
+    padding: 1rem calc(50% - 575px);
   }
 }
 
