@@ -3,6 +3,9 @@
   color: white;
   margin: 0;
   width: 100%;
+  background-image: url("../img/background.png");
+  background-position: top right;
+  background-repeat: no-repeat;
 }
 
 @media (min-width: 320px) {
@@ -78,6 +81,11 @@
   text-decoration: none;
   opacity: 0.6;
   margin-left: 49px;
+}
+
+.site-list__item a:hover {
+  color: white;
+  opacity: 1;
 }
 
 @media (max-width: 1440px) {

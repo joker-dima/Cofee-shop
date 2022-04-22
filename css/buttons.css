@@ -1,3 +1,12 @@
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
 .button {
   border-radius: 5px;
   background: #FF4B32;
@@ -9,5 +18,13 @@
   line-height: 160%;
   color: white;
   text-decoration: none;
+}
+
+.button:hover {
+  background: #fd381e;
+}
+
+.toggle__button--dissabled {
+  opacity: 0.6;
 }
 /*# sourceMappingURL=buttons.css.map */

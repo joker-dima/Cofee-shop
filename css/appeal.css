@@ -1,0 +1,63 @@
+.appeal {
+  margin-left: 145px;
+  padding-bottom: 110px;
+}
+
+@media (max-width: 1440px) {
+  .appeal {
+    padding-bottom: 50px;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 830px) {
+  .appeal {
+    padding-bottom: 50px;
+    margin-left: 20px;
+  }
+}
+
+.appeal__slogan {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 120%;
+  margin: 110px 0 26px 0;
+}
+
+@media (max-width: 830px) {
+  .appeal__slogan {
+    margin-top: 50px;
+    font-size: 35px;
+  }
+}
+
+.appeal__intro {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 160%;
+  opacity: 0.8;
+  margin-bottom: 48px;
+}
+
+@media (max-width: 830px) {
+  .appeal__intro {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .button-adaptive {
+    padding: 13px 28px;
+  }
+}
+
+@media (max-width: 830px) {
+  .button-adaptive {
+    padding: 11px 24px;
+  }
+}
+/*# sourceMappingURL=appeal.css.map */

@@ -12,74 +12,28 @@
 
 @import "buttons.scss";
 
+// APPEAL
 
+@import "appeal.scss";
 
-.appeal {
-    margin-left: 145px;
-    padding-bottom: 110px;
+// NAMEING_SECTION
 
-    @media (max-width: 1440px) {
-        padding-bottom: 50px;
-        margin-left: 50px;
-    }
+@import "nameing-section";
 
-    ;
+// .shop {
+//     margin-top: 140px;
+//     margin-left: 145px;
+// }
 
-    @media (max-width: 830px) {
-        padding-bottom: 50px;
-        margin-left: 20px;
-    }
-
-    ;
+.toggle {
+    width: 116px;
+    margin-left: auto;
 }
 
 ;
 
-.appeal__slogan {
-    font-family: 'Josefin Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 58px;
-    line-height: 120%;
-    margin: 110px 0 26px 0;
-
-    @media (max-width: 830px) {
-        margin-top: 50px;
-        font-size: 35px;
-    }
+.toggle__button:first-child {
+    margin-right: 20px;
 }
 
 ;
-
-.appeal__intro {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 160%;
-    opacity: 0.8;
-    margin-bottom: 48px;
-
-    @media (max-width: 830px) {
-        font-size: 12px;
-    }
-}
-
-.button {
-
-
-
-
-    @media (max-width: 1440px) {
-        padding: 13px 28px;
-
-    }
-
-    @media (max-width: 830px) {
-        padding: 11px 24px;
-    }
-
-    ;
-
-
-}
