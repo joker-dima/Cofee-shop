@@ -23,3 +23,102 @@
 // SHOP
 
 @import "shop.scss";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// GALLERY
+
+.nameing-section--position {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+
+.gallery {
+
+    padding: 1rem;
+
+    @media (min-width: 320px) {
+        min-width: 280px;
+        padding: 0 20px;
+        justify-content: space-between;
+    }
+
+
+    @media (min-width: 831px) {
+
+        min-width: 640px;
+        padding: 0 64px;
+
+    }
+
+    @media (min-width: 1440px) {
+        padding: 1rem calc(50% - 575px);
+
+    }
+
+    @media (max-width: 1274px) {
+        justify-content: center;
+
+    }
+
+
+}
+
+
+.gallery__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+}
