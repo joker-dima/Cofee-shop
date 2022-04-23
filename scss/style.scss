@@ -24,56 +24,6 @@
 
 @import "shop.scss";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // GALLERY
 
 .nameing-section--position {
@@ -110,8 +60,6 @@
         justify-content: center;
 
     }
-
-
 }
 
 
@@ -121,4 +69,39 @@
     align-content: flex-start;
     justify-content: space-between;
     gap: 30px;
+}
+
+
+.gallery__link {
+    margin-top: 60px;
+    margin-bottom: 140px;
+
+    hr {
+        border: 1px solid #0D0402;
+        width: 460px;
+    }
+
+    ;
+
+    a {
+        display: block;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        text-align: center;
+        color: #FF4B32;
+        text-transform: uppercase;
+        text-decoration: none;
+
+        &:hover {
+            color: #fd381e;
+        }
+    }
+}
+
+.gallery__img--up {
+
+    margin-top: -100px;
 }
