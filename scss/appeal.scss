@@ -3,12 +3,8 @@
     padding-bottom: 126px;
 
 
-    @media (max-width: 830px) {
-        padding-bottom: 50px;
-        margin-left: 64px;
-    }
 
-    ;
+
 
     @media (min-width: 1440px) {
         padding: 1rem calc(50% - 575px);
@@ -20,6 +16,13 @@
     @media (max-width: 1439px) {
         padding-left: 64px
     }
+
+
+    @media (max-width: 830px) {
+        padding-bottom: 50px;
+        padding-left: 12px
+    }
+
 }
 
 

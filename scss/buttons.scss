@@ -5,7 +5,7 @@ button {
     font: inherit;
     color: inherit;
     background-color: transparent;
-    cursor: pointer;
+
 }
 
 // TOGGLE_BUTTONS
@@ -21,6 +21,7 @@ button {
     line-height: 160%;
     color: white;
     text-decoration: none;
+    cursor: pointer;
 
     &:hover {
         background: #fd381e;
