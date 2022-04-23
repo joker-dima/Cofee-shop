@@ -1,0 +1,127 @@
+// SHOP
+
+
+.shop {
+    margin-top: 140px;
+    padding-left: 50px;
+
+    @media (min-width: 320px) {
+        min-width: 280px;
+        padding: 0 20px;
+    }
+
+
+    @media (min-width: 831px) {
+
+        min-width: 640px;
+        padding: 0 64px;
+    }
+
+    @media (min-width: 1440px) {
+        padding: 1rem calc(50% - 575px);
+    }
+}
+
+.shop__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-bottom: 140px;
+    justify-content: space-between;
+
+    @media (max-width: 1179px) {
+        gap: 40px
+    }
+
+    @media (max-width: 830px) {
+        gap: 50px;
+        flex-direction: column;
+        align-content: space-evenly
+    }
+
+}
+
+.shop__list {
+    margin: 0;
+    padding: 0;
+}
+
+
+.shop__item {
+    list-style: none;
+}
+
+.item__price {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.item__title {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+}
+
+.item__description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    margin: 0;
+    padding: 0;
+}
+
+// TABLE
+
+.shop__order {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.shop-table {
+    display: inline-block;
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-right: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+
+    & td:nth-of-type(1) {
+        width: 53.5px;
+        height: 22px;
+        text-align: center;
+    }
+
+    & td:nth-of-type(2) {
+        height: 22px;
+        text-align: center;
+    }
+}
+
+// TOGGLE
+
+
+.nameing-section__toggle {
+    display: flex;
+}
+
+.toggle {
+    width: 116px;
+    margin-left: auto;
+    margin-top: 5px;
+}
+
+.toggle__button:first-child {
+    margin-right: 20px;
+}
