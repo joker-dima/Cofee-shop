@@ -68,6 +68,7 @@
   font-weight: 600;
   font-size: 32px;
   line-height: 130%;
+  max-width: 310px;
 }
 
 .item__description {
@@ -78,6 +79,7 @@
   line-height: 160%;
   margin: 0;
   padding: 0;
+  max-width: 257px;
 }
 
 .shop__order {

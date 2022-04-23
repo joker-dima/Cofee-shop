@@ -269,6 +269,7 @@ button {
   font-size: 58px;
   line-height: 120%;
   margin: 110px 0 26px 0;
+  max-width: 524px;
 }
 
 @media (max-width: 830px) {
@@ -286,6 +287,7 @@ button {
   line-height: 160%;
   opacity: 0.8;
   margin-bottom: 48px;
+  max-width: 506px;
 }
 
 @media (max-width: 830px) {
@@ -307,20 +309,32 @@ button {
 }
 
 .nameing-section__heading {
-  margin: 0;
+  margin: 0 auto;
   font-family: 'Josefin Sans';
   font-style: normal;
   font-weight: 600;
   font-size: 43px;
   line-height: 130%;
+  max-width: 445px;
+}
+
+.nameing-section__heading--left {
+  margin: 0;
 }
 
 .nameing-section__description {
+  display: block;
+  margin: 0 auto;
+  max-width: 609px;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 160%;
+}
+
+.nameing-section__description-left {
+  margin: 0;
 }
 
 .shop {
@@ -393,6 +407,7 @@ button {
   font-weight: 600;
   font-size: 32px;
   line-height: 130%;
+  max-width: 310px;
 }
 
 .item__description {
@@ -403,6 +418,7 @@ button {
   line-height: 160%;
   margin: 0;
   padding: 0;
+  max-width: 257px;
 }
 
 .shop__order {
@@ -530,6 +546,7 @@ button {
   margin-bottom: 140px;
   text-align: center;
   padding-top: 100px;
+  max-height: 650px;
 }
 
 @media (min-width: 320px) {
@@ -612,5 +629,9 @@ button {
 
 .social a:last-child {
   margin: 0;
+}
+
+.news {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
