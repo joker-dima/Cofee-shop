@@ -242,7 +242,7 @@ button {
   padding-bottom: 126px;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1439px) {
   .appeal {
     padding: 1rem calc(50% - 575px);
     padding-bottom: 126px;
@@ -394,7 +394,7 @@ button {
   }
 }
 
-@media (min-width: 830px) {
+@media (min-width: 831px) {
   .shop {
     min-width: 640px;
     padding: 0 64px;
@@ -403,8 +403,7 @@ button {
 
 @media (min-width: 1440px) {
   .shop {
-    min-width: 1148px;
-    padding: 0 146px;
+    padding: 1rem calc(50% - 575px);
   }
 }
 
@@ -426,7 +425,22 @@ button {
   display: flex;
   flex-wrap: wrap;
   margin-top: 60px;
+  margin-bottom: 140px;
   justify-content: space-between;
+}
+
+@media (max-width: 1179px) {
+  .shop__wrapper {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 830px) {
+  .shop__wrapper {
+    gap: 50px;
+    flex-direction: column;
+    align-content: space-evenly;
+  }
 }
 
 .shop__list {

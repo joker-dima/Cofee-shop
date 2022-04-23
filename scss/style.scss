@@ -103,15 +103,14 @@
     }
 
 
-    @media (min-width: 830px) {
+    @media (min-width: 831px) {
 
         min-width: 640px;
         padding: 0 64px;
     }
 
     @media (min-width: 1440px) {
-        min-width: 1148px;
-        padding: 0 146px;
+        padding: 1rem calc(50% - 575px);
     }
 }
 
@@ -142,7 +141,19 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 60px;
+    margin-bottom: 140px;
     justify-content: space-between;
+
+    @media (max-width: 1179px) {
+        gap: 40px
+    }
+
+    @media (max-width: 830px) {
+        gap: 50px;
+        flex-direction: column;
+        align-content: space-evenly
+    }
+
 }
 
 
