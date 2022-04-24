@@ -19,6 +19,8 @@
 
     @media (min-width: 1440px) {
         padding: 1rem calc(50% - 575px);
+        padding-top: 0;
+        padding-bottom: 13px;
     }
 }
 
@@ -89,6 +91,7 @@
 
 .nameing-section__toggle {
     display: flex;
+    margin-bottom: 20px;
 }
 
 .toggle {

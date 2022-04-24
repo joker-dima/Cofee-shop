@@ -5,7 +5,7 @@
 @media (min-width: 1439px) {
   .appeal {
     padding: 1rem calc(50% - 575px);
-    padding-bottom: 110px;
+    padding-bottom: 123px;
   }
 }
 
@@ -28,7 +28,7 @@
   font-weight: 700;
   font-size: 58px;
   line-height: 120%;
-  margin: 110px 0 26px 0;
+  margin: 84px 0 26px 0;
   max-width: 524px;
 }
 
@@ -46,7 +46,6 @@
   font-size: 20px;
   line-height: 160%;
   opacity: 0.8;
-  margin-bottom: 48px;
   max-width: 516px;
 }
 
@@ -54,6 +53,10 @@
   .appeal__intro {
     font-size: 12px;
   }
+}
+
+.appeal__intro {
+  margin-bottom: 65px;
 }
 
 @media (max-width: 1439px) {
