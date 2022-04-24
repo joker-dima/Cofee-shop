@@ -29,6 +29,7 @@
 .item__title--centr {
   margin: 0 auto;
   margin-top: 30px;
+  text-align: left;
 }
 
 .item__description {
@@ -328,7 +329,7 @@ button {
   line-height: 160%;
   opacity: 0.8;
   margin-bottom: 48px;
-  max-width: 506px;
+  max-width: 516px;
 }
 
 @media (max-width: 830px) {
@@ -658,7 +659,6 @@ button {
 @media (min-width: 831px) {
   .news {
     min-width: 640px;
-    padding: 0 64px;
   }
 }
 
@@ -673,6 +673,13 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 30px;
+}
+
+@media (max-width: 1275px) {
+  .news-items {
+    justify-content: center;
+  }
 }
 
 .news__item {
