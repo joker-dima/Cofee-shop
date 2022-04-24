@@ -35,6 +35,10 @@
     box-shadow: 40px 15px 136px rgba(0, 0, 0, 0.2);
     border: 1px;
     border-radius: 20px;
+
+    &:hover {
+        outline: 1px dotted #FF4B32;
+    }
 }
 
 .news__link {
@@ -53,5 +57,9 @@
     line-height: 160%;
     color: #FF4B32;
     margin-bottom: 30px;
+
+    &:hover {
+        color: black;
+    }
 
 }

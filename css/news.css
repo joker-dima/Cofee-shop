@@ -43,6 +43,10 @@
   border-radius: 20px;
 }
 
+.news__item:hover {
+  outline: 1px dotted #FF4B32;
+}
+
 .news__link {
   text-align: left;
   padding-left: 30px;
@@ -59,5 +63,9 @@
   line-height: 160%;
   color: #FF4B32;
   margin-bottom: 30px;
+}
+
+.news__link__text:hover {
+  color: black;
 }
 /*# sourceMappingURL=news.css.map */

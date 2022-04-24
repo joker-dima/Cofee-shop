@@ -42,21 +42,18 @@
     }
 }
 
+.gallery__hr {
+    border: 1px solid #0D0402;
+    width: 460px;
+}
+
 .gallery__link {
     margin-top: 60px;
     margin-bottom: 140px;
     display: block;
     text-align: center;
 
-    hr {
-        border: 1px solid #0D0402;
-        width: 460px;
-    }
-
-    ;
-
     a {
-
         font-family: 'Open Sans';
         font-style: normal;
         font-weight: 400;
@@ -67,7 +64,7 @@
         text-decoration: none;
 
         &:hover {
-            color: #fd381e;
+            color: black;
         }
     }
 }

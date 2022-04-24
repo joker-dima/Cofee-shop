@@ -41,36 +41,10 @@
 
 @import "news.scss";
 
-// NEWS
+// FOOTER
 
 @import "footer.scss";
 
-.copyright {
-    background-color: white;
-}
+// COPYRIGHT
 
-.copyright__item {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 160%;
-    color: white;
-    text-align: center;
-    padding-top: 25px;
-    padding-bottom: 50px;
-    background-color: black;
-
-}
-
-.copyright__hr {
-    border: 1px solid rgb(0, 0, 0);
-    opacity: 0.4;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-
-
-}
+@import "copyright.scss";

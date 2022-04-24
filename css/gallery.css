@@ -42,16 +42,16 @@
   }
 }
 
+.gallery__hr {
+  border: 1px solid #0D0402;
+  width: 460px;
+}
+
 .gallery__link {
   margin-top: 60px;
   margin-bottom: 140px;
   display: block;
   text-align: center;
-}
-
-.gallery__link hr {
-  border: 1px solid #0D0402;
-  width: 460px;
 }
 
 .gallery__link a {
@@ -66,7 +66,7 @@
 }
 
 .gallery__link a:hover {
-  color: #fd381e;
+  color: black;
 }
 
 .gallery__img--up {
