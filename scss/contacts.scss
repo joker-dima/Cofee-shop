@@ -80,6 +80,9 @@
     line-height: 150%;
     color: #FFFFFF;
 
+    &:hover {
+        color: rgb(177, 177, 177);
+    }
 }
 
 .social {
@@ -92,5 +95,4 @@
         }
     }
 
-    ;
 }

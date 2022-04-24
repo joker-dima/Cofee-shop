@@ -637,6 +637,10 @@ button {
   color: #FFFFFF;
 }
 
+.contacts__item:hover {
+  color: #b1b1b1;
+}
+
 .social a {
   margin-right: 40px;
 }
@@ -647,6 +651,7 @@ button {
 
 .news {
   text-align: center;
+  margin-bottom: 142px;
 }
 
 @media (min-width: 320px) {
@@ -705,5 +710,113 @@ button {
   line-height: 160%;
   color: #FF4B32;
   margin-bottom: 30px;
+}
+
+.page-footer {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+  padding: 60px 147px 51px 147px;
+}
+
+@media (min-width: 320px) {
+  .page-footer {
+    min-width: 280px;
+    padding: 60px 20px 51px 20px;
+  }
+}
+
+@media (max-width: 831px) {
+  .page-footer {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 831px) {
+  .page-footer {
+    min-width: 640px;
+    padding: 60px 64px 51px 64px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .page-footer {
+    padding: 1rem calc(50% - 575px);
+    padding-top: 77px;
+    padding-bottom: 51px;
+  }
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-column_item {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  color: #FFFFFF;
+  max-width: 260px;
+  text-decoration: none;
+}
+
+.footer-column_item:hover {
+  color: #b1b1b1;
+}
+
+.footer-column_item--no-link:hover {
+  color: white;
+}
+
+.footer-column__title {
+  margin: 0;
+  padding: 0;
+  margin-top: 17px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.page__logo--footer {
+  margin-top: 0;
+}
+
+.contacts__item--footer {
+  font-size: 18px;
+  justify-content: flex-start;
+}
+
+.phone-footer {
+  justify-content: flex-start;
+}
+
+.social--footer {
+  margin-top: 46px;
+  margin-bottom: auto;
+}
+
+.social--footer a {
+  margin-right: 30px;
+}
+
+.social--footer a:last-child {
+  margin: 0;
+}
+
+@media (max-width: 941px) {
+  .social--footer a {
+    margin-right: 5px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

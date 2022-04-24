@@ -82,6 +82,10 @@
   color: #FFFFFF;
 }
 
+.contacts__item:hover {
+  color: #b1b1b1;
+}
+
 .social a {
   margin-right: 40px;
 }
