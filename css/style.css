@@ -15,6 +15,8 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 150%;
+  margin: 0;
+  margin-top: 32px;
 }
 
 .item__title {
@@ -24,6 +26,7 @@
   font-size: 32px;
   line-height: 130%;
   max-width: 350px;
+  margin: 10px 0 0 0;
 }
 
 .item__title--centr {
@@ -41,6 +44,7 @@
   margin: 0;
   padding: 0;
   max-width: 257px;
+  margin: 15px 0 0 0;
 }
 
 .item__description--centr {
@@ -259,7 +263,7 @@ button {
 .button {
   border-radius: 5px;
   background: #FF4B32;
-  padding: 16px 35px;
+  padding: 15px 30px;
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
@@ -272,6 +276,10 @@ button {
 
 .button:hover {
   background: #fc2408;
+}
+
+.button-adaptive {
+  padding: 19px 35px;
 }
 
 .toggle__button--dissabled {
@@ -403,7 +411,7 @@ button {
   .shop {
     padding: 1rem calc(50% - 575px);
     padding-top: 0;
-    padding-bottom: 13px;
+    padding-bottom: 0;
   }
 }
 
@@ -432,16 +440,21 @@ button {
 .shop__list {
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .shop__item {
   list-style: none;
+  margin-top: auto;
+  max-width: 370px;
 }
 
 .shop__order {
   display: flex;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 31px;
 }
 
 .shop-table {
@@ -470,6 +483,8 @@ button {
 .nameing-section__toggle {
   display: flex;
   margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .toggle {
@@ -517,6 +532,8 @@ button {
 @media (min-width: 1440px) {
   .gallery {
     padding: 1rem calc(50% - 575px);
+    padding-bottom: 0;
+    padding-top: 0;
   }
 }
 
@@ -832,15 +849,13 @@ button {
 }
 
 .copyright {
-  background-color: white;
+  background-color: black;
 }
 
 .copyright hr {
-  background: #000000;
-  border: 1px solid #ffffff;
   margin: 0 auto;
   opacity: 0.4;
-  width: 400px;
+  max-width: 1146px;
 }
 
 .copyright__item {

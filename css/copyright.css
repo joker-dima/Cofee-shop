@@ -1,13 +1,11 @@
 .copyright {
-  background-color: white;
+  background-color: black;
 }
 
 .copyright hr {
-  background: #000000;
-  border: 1px solid #ffffff;
   margin: 0 auto;
   opacity: 0.4;
-  width: 400px;
+  max-width: 1146px;
 }
 
 .copyright__item {

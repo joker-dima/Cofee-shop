@@ -13,7 +13,7 @@ button {
 .button {
     border-radius: 5px;
     background: #FF4B32;
-    padding: 16px 35px;
+    padding: 15px 30px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
@@ -26,6 +26,10 @@ button {
     &:hover {
         background: #fc2408;
     }
+}
+
+.button-adaptive {
+    padding: 19px 35px;
 }
 
 .toggle__button--dissabled {

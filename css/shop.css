@@ -21,7 +21,7 @@
   .shop {
     padding: 1rem calc(50% - 575px);
     padding-top: 0;
-    padding-bottom: 13px;
+    padding-bottom: 0;
   }
 }
 
@@ -50,16 +50,21 @@
 .shop__list {
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .shop__item {
   list-style: none;
+  margin-top: auto;
+  max-width: 370px;
 }
 
 .shop__order {
   display: flex;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 31px;
 }
 
 .shop-table {
@@ -88,6 +93,8 @@
 .nameing-section__toggle {
   display: flex;
   margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .toggle {
