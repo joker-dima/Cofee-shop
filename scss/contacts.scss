@@ -40,6 +40,7 @@
     line-height: 150%;
     color: #FF4B32;
     cursor: pointer;
+    margin-bottom: 25px;
 
     &:hover {
         color: #fd381e;
@@ -48,7 +49,8 @@
 
 .contacts__line {
     width: 95px;
-    border: 1px solid #FF4B32
+    border: 1px solid #FF4B32;
+    margin: 0 auto;
 }
 
 .contacts__heading {

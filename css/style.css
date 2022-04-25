@@ -31,7 +31,8 @@
 
 .item__title--centr {
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 25px;
+  margin-left: 30px;
   text-align: left;
 }
 
@@ -367,6 +368,7 @@ button {
   font-size: 43px;
   line-height: 130%;
   max-width: 445px;
+  margin-bottom: 20px;
 }
 
 .nameing-section__heading--left {
@@ -502,6 +504,10 @@ button {
   margin-bottom: 60px;
 }
 
+.nameing-section__heading-position {
+  margin-bottom: 20px;
+}
+
 .gallery__wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -543,9 +549,16 @@ button {
   }
 }
 
-.gallery__hr {
+.gallery__hr-top {
   border: 1px solid #0D0402;
   width: 460px;
+  margin-top: 15px;
+}
+
+.gallery__hr-bottom {
+  border: 1px solid #0D0402;
+  width: 460px;
+  margin-top: 15px;
 }
 
 .gallery__link {
@@ -617,6 +630,7 @@ button {
   line-height: 150%;
   color: #FF4B32;
   cursor: pointer;
+  margin-bottom: 25px;
 }
 
 .contacts__link:hover {
@@ -626,6 +640,7 @@ button {
 .contacts__line {
   width: 95px;
   border: 1px solid #FF4B32;
+  margin: 0 auto;
 }
 
 .contacts__heading {
@@ -691,6 +706,8 @@ button {
 @media (min-width: 1440px) {
   .news {
     padding: 1rem calc(50% - 575px);
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
 
@@ -721,7 +738,7 @@ button {
 
 .news__link {
   text-align: left;
-  padding-left: 30px;
+  padding-left: 35px;
   padding-right: 30px;
   padding-bottom: 30px;
 }
@@ -734,11 +751,15 @@ button {
   font-size: 16px;
   line-height: 160%;
   color: #FF4B32;
-  margin-bottom: 30px;
 }
 
 .news__link__text:hover {
   color: black;
+}
+
+.news__link__text img {
+  display: inline-block;
+  margin-left: 10px;
 }
 
 .page-footer {

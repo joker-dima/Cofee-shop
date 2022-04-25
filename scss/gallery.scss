@@ -3,6 +3,10 @@
     margin-bottom: 60px;
 }
 
+.nameing-section__heading-position {
+    margin-bottom: 20px;
+}
+
 // GALLERY
 
 .gallery__wrapper {
@@ -44,9 +48,16 @@
     }
 }
 
-.gallery__hr {
+.gallery__hr-top {
     border: 1px solid #0D0402;
     width: 460px;
+    margin-top: 15px;
+}
+
+.gallery__hr-bottom {
+    border: 1px solid #0D0402;
+    width: 460px;
+    margin-top: 15px;
 }
 
 .gallery__link {
