@@ -4,6 +4,12 @@
   display: flex;
   margin-top: 50px;
   margin-right: auto;
+  text-decoration: none;
+}
+
+.page__logo img {
+  width: 50px;
+  height: 50px;
 }
 
 @media (max-width: 830px) {

@@ -202,6 +202,11 @@
   margin-left: 38px;
 }
 
+.cart img {
+  width: 41px;
+  height: 39px;
+}
+
 @media (max-width: 830px) {
   .cart {
     margin-left: 18px;
@@ -229,6 +234,12 @@
   display: flex;
   margin-top: 50px;
   margin-right: auto;
+  text-decoration: none;
+}
+
+.page__logo img {
+  width: 50px;
+  height: 50px;
 }
 
 @media (max-width: 830px) {
@@ -281,6 +292,11 @@ button {
 
 .button-adaptive {
   padding: 19px 35px;
+}
+
+.toggle__button img {
+  width: 46;
+  height: 46;
 }
 
 .toggle__button--dissabled {
@@ -453,6 +469,11 @@ button {
   max-width: 370px;
 }
 
+.shop__item img {
+  width: 300px;
+  height: 265px;
+}
+
 .shop__order {
   display: flex;
   align-items: center;
@@ -514,6 +535,16 @@ button {
   align-content: flex-start;
   justify-content: space-between;
   gap: 30px;
+}
+
+.gallery__wrapper .gallery__img {
+  width: 362px;
+  height: 330px;
+}
+
+.gallery__wrapper .gallery__img--even {
+  width: 362px;
+  height: 230px;
 }
 
 .gallery {
@@ -677,6 +708,11 @@ button {
   color: #b1b1b1;
 }
 
+.social img {
+  width: 50px;
+  height: 50px;
+}
+
 .social a {
   margin-right: 40px;
 }
@@ -734,6 +770,11 @@ button {
 
 .news__item:hover {
   outline: 1px dotted #FF4B32;
+}
+
+.news__img {
+  width: 362px;
+  height: 300px;
 }
 
 .news__link {

@@ -15,6 +15,16 @@
   gap: 30px;
 }
 
+.gallery__wrapper .gallery__img {
+  width: 362px;
+  height: 330px;
+}
+
+.gallery__wrapper .gallery__img--even {
+  width: 362px;
+  height: 230px;
+}
+
 .gallery {
   padding: 1rem;
 }

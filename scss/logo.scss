@@ -4,22 +4,22 @@
     display: flex;
     margin-top: 50px;
     margin-right: auto;
+    text-decoration: none;
+
+    img {
+        width: 50px;
+        height: 50px;
+    }
 
     @media (max-width: 830px) {
         margin-top: 20px;
     }
-
-    ;
-
 
 
     @media (max-width: 1439px) {
         margin-right: 0;
     }
 }
-
-;
-
 
 
 .logo__title {

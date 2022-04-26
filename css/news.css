@@ -49,6 +49,11 @@
   outline: 1px dotted #FF4B32;
 }
 
+.news__img {
+  width: 362px;
+  height: 300px;
+}
+
 .news__link {
   text-align: left;
   padding-left: 35px;

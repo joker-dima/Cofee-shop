@@ -28,6 +28,11 @@ button {
   padding: 19px 35px;
 }
 
+.toggle__button img {
+  width: 46;
+  height: 46;
+}
+
 .toggle__button--dissabled {
   opacity: 0.6;
 }

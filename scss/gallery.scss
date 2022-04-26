@@ -15,6 +15,17 @@
     align-content: flex-start;
     justify-content: space-between;
     gap: 30px;
+
+    .gallery__img {
+        width: 362px;
+        height: 330px;
+    }
+
+    .gallery__img--even {
+        width: 362px;
+        height: 230px;
+    }
+
 }
 
 .gallery {

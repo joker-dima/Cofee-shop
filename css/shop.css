@@ -61,6 +61,11 @@
   max-width: 370px;
 }
 
+.shop__item img {
+  width: 300px;
+  height: 265px;
+}
+
 .shop__order {
   display: flex;
   align-items: center;

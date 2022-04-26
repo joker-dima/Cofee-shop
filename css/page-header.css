@@ -144,6 +144,11 @@
   margin-left: 38px;
 }
 
+.cart img {
+  width: 41px;
+  height: 39px;
+}
+
 @media (max-width: 830px) {
   .cart {
     margin-left: 18px;
