@@ -48,3 +48,43 @@
 // COPYRIGHT
 
 @import "copyright.scss";
+
+
+// MOBILE MENU BUTTON
+
+
+
+.main-nav {
+
+    @media (max-width: 829px) {
+        margin-top: 20px;
+
+
+        position: relative;
+        width: 30%;
+        min-height: 250px;
+        background-color: #FF4B32;
+
+
+        @media (min-width:830px) {
+            display: none;
+        }
+
+    }
+
+}
+
+@media (max-width: 829px) {
+
+    .main-nav__toggle {
+        position: absolute;
+        // top: 50px;
+        width: 100%;
+        height: 50px;
+        background-color: #fff;
+        cursor: pointer;
+        border: 0;
+
+    }
+
+}

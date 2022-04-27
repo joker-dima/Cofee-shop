@@ -12,7 +12,7 @@
   height: 50px;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 829px) {
   .page__logo {
     margin-top: 20px;
   }

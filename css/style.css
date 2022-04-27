@@ -148,7 +148,7 @@
   }
 }
 
-@media (min-width: 831px) {
+@media (min-width: 830px) {
   .nav-wrapper {
     min-width: 640px;
     padding: 0 64px;
@@ -163,20 +163,14 @@
   }
 }
 
-@media (min-width: 320px) {
-  .main-nav__toggle {
-    display: none;
-  }
-}
-
 .main-nav__list {
   margin: 0;
   padding: 0;
-  margin-right: 60px;
+  margin-right: 52px;
   margin-left: auto;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 60px;
+  margin-top: 43px;
 }
 
 @media (max-width: 1439px) {
@@ -185,7 +179,7 @@
   }
 }
 
-@media (max-width: 830px) {
+@media (max-width: 829px) {
   .main-nav__list {
     flex-direction: column;
     margin-top: 20px;
@@ -218,7 +212,7 @@
   }
 }
 
-@media (max-width: 830px) {
+@media (max-width: 829px) {
   .site-list__item a {
     margin-left: 0;
     margin-bottom: 30px;
@@ -245,7 +239,7 @@
   margin-top: 50px;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 829px) {
   .user-list {
     margin-top: 20px;
   }
@@ -272,7 +266,7 @@
   height: 39px;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 829px) {
   .cart {
     margin-left: 18px;
   }
@@ -307,7 +301,7 @@
   height: 50px;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 829px) {
   .page__logo {
     margin-top: 20px;
   }
@@ -385,7 +379,7 @@ button {
   }
 }
 
-@media (max-width: 830px) {
+@media (max-width: 829px) {
   .appeal {
     padding-bottom: 50px;
     padding-left: 12px;
@@ -402,7 +396,7 @@ button {
   max-width: 524px;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 290px) {
   .appeal__slogan {
     margin-top: 50px;
     font-size: 35px;
@@ -419,7 +413,7 @@ button {
   max-width: 516px;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 829px) {
   .appeal__intro {
     font-size: 12px;
   }
@@ -435,7 +429,7 @@ button {
   }
 }
 
-@media (max-width: 830px) {
+@media (max-width: 829px) {
   .button-adaptive {
     padding: 11px 24px;
   }
@@ -1018,5 +1012,32 @@ button {
   padding-top: 25px;
   padding-bottom: 50px;
   background-color: black;
+}
+
+@media (max-width: 829px) {
+  .main-nav {
+    margin-top: 20px;
+    position: relative;
+    width: 30%;
+    min-height: 250px;
+    background-color: #FF4B32;
+  }
+}
+
+@media (max-width: 829px) and (min-width: 830px) {
+  .main-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 829px) {
+  .main-nav__toggle {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    cursor: pointer;
+    border: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
