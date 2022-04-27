@@ -144,7 +144,6 @@
 @media (min-width: 320px) {
   .nav-wrapper {
     min-width: 280px;
-    padding: 0 20px;
   }
 }
 
@@ -1015,18 +1014,40 @@ button {
 }
 
 @media (max-width: 829px) {
+  .page__logo {
+    width: 50%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 829px) {
+  .user-list {
+    margin-right: 5%;
+  }
+}
+
+@media (max-width: 829px) {
   .main-nav {
+    order: 2;
     margin-top: 20px;
     position: relative;
-    width: 30%;
+    width: 100%;
     min-height: 250px;
     background-color: #FF4B32;
+    padding: 0;
   }
 }
 
 @media (max-width: 829px) and (min-width: 830px) {
   .main-nav {
     display: none;
+  }
+}
+
+@media (max-width: 829px) {
+  .nav-wrapper {
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 }
 

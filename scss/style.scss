@@ -54,22 +54,50 @@
 
 
 
+.page__logo {
+
+    @media (max-width: 829px) {
+        width: 50%;
+        margin-left: 5%;
+    }
+}
+
+.user-list {
+    @media (max-width: 829px) {
+        margin-right: 5%;
+    }
+}
+
+
 .main-nav {
 
     @media (max-width: 829px) {
+        order: 2;
         margin-top: 20px;
-
-
         position: relative;
-        width: 30%;
+        width: 100%;
         min-height: 250px;
         background-color: #FF4B32;
+        padding: 0;
+
+
+
+
 
 
         @media (min-width:830px) {
             display: none;
         }
+    }
+}
 
+;
+
+
+.nav-wrapper {
+    @media (max-width: 829px) {
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 
 }
@@ -78,7 +106,6 @@
 
     .main-nav__toggle {
         position: absolute;
-        // top: 50px;
         width: 100%;
         height: 50px;
         background-color: #fff;
