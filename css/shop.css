@@ -29,8 +29,8 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: 60px;
-  margin-bottom: 140px;
   justify-content: space-between;
+  margin-bottom: 140px;
 }
 
 @media (max-width: 1179px) {
@@ -59,11 +59,12 @@
   list-style: none;
   margin-top: auto;
   max-width: 370px;
+  object-fit: cover;
 }
 
 .shop__item img {
-  width: 300px;
-  height: 265px;
+  height: auto;
+  max-width: 370px;
 }
 
 .shop__order {
@@ -73,7 +74,6 @@
 }
 
 .shop-table {
-  display: inline-block;
   border-collapse: collapse;
   border: 1px solid black;
   border-radius: 2px;

@@ -28,8 +28,8 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 60px;
-    margin-bottom: 140px;
     justify-content: space-between;
+    margin-bottom: 140px;
 
     @media (max-width: 1179px) {
         gap: 40px
@@ -49,6 +49,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
 
 
@@ -56,10 +57,11 @@
     list-style: none;
     margin-top: auto;
     max-width: 370px;
+    object-fit: cover;
 
     img {
-        width: 300px;
-        height: 265px;
+        height: auto;
+        max-width: 370px;
     }
 
 }
@@ -74,7 +76,7 @@
 }
 
 .shop-table {
-    display: inline-block;
+
     border-collapse: collapse;
     border: 1px solid black;
     border-radius: 2px;

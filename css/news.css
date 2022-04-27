@@ -46,7 +46,7 @@
 }
 
 .news__item:hover {
-  outline: 1px dotted #FF4B32;
+  outline: 2px solid #FF4B32;
 }
 
 .news__img {

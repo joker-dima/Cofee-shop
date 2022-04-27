@@ -80,7 +80,7 @@
   font-size: 24px;
   line-height: 150%;
   margin: 0;
-  margin-top: 32px;
+  margin-top: 31px;
 }
 
 .item__title {
@@ -502,8 +502,8 @@ button {
   display: flex;
   flex-wrap: wrap;
   margin-top: 60px;
-  margin-bottom: 140px;
   justify-content: space-between;
+  margin-bottom: 140px;
 }
 
 @media (max-width: 1179px) {
@@ -532,11 +532,12 @@ button {
   list-style: none;
   margin-top: auto;
   max-width: 370px;
+  object-fit: cover;
 }
 
 .shop__item img {
-  width: 300px;
-  height: 265px;
+  height: auto;
+  max-width: 370px;
 }
 
 .shop__order {
@@ -546,7 +547,6 @@ button {
 }
 
 .shop-table {
-  display: inline-block;
   border-collapse: collapse;
   border: 1px solid black;
   border-radius: 2px;
@@ -834,7 +834,7 @@ button {
 }
 
 .news__item:hover {
-  outline: 1px dotted #FF4B32;
+  outline: 2px solid #FF4B32;
 }
 
 .news__img {
@@ -974,6 +974,11 @@ button {
 .social--footer {
   margin-top: 46px;
   margin-bottom: auto;
+}
+
+.social--footer img {
+  width: 38px;
+  height: 38px;
 }
 
 .social--footer a {
