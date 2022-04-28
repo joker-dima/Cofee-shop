@@ -68,25 +68,6 @@
 }
 
 
-.main-nav {
-
-    @media (max-width: 829px) {
-        margin-top: 20px;
-        position: relative;
-        width: 20%;
-        min-height: 250px;
-        background-color: #FF4B32;
-        padding: 0;
-
-        @media (min-width:830px) {
-            display: none;
-        }
-    }
-}
-
-;
-
-
 .nav-wrapper {
     @media (max-width: 829px) {
         justify-content: space-between;
@@ -98,11 +79,39 @@
 
     .main-nav__toggle {
         position: absolute;
-        width: 20%;
-        height: 50px;
+        width: 100%;
+        height: 40px;
         cursor: pointer;
         border: 0;
+        background-color: aliceblue;
+        z-index: 2;
 
     }
 
+}
+
+
+.main-nav {
+
+    @media (max-width: 829px) {
+        margin-top: 30px;
+        position: relative;
+        width: 20%;
+        min-height: 350px;
+
+        @media (min-width:830px) {
+            display: none;
+        }
+    }
+}
+
+.main-nav__list {
+
+    @media (max-width: 829px) {
+        position: absolute;
+        background-color: #FF4B32;
+
+        width: 100%;
+
+    }
 }
