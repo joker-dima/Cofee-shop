@@ -76,6 +76,22 @@
 .site-list__item {
     list-style: none;
 
+
+    @media (max-width: 829px) {
+        width: 100%;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: white;
+        opacity: 0.6;
+        width: 90%;
+        text-transform: uppercase;
+
+        &:hover {
+            background-color: #fc2408;
+        }
+
+    }
+
     a {
         font-family: 'Open Sans';
         font-weight: 400;
@@ -100,18 +116,17 @@
 
         @media (max-width: 829px) {
             margin-left: 0;
+            opacity: 1;
         }
 
 
     }
 
     @media (max-width: 829px) {
-        margin-left: 0;
-        margin-top: 20px;
 
-        &:last-child {
-            margin-bottom: 20px;
-        }
+        text-align: center;
+        height: 40px;
+        line-height: 40px;
 
     }
 }
