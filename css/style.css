@@ -395,7 +395,7 @@ button {
   max-width: 524px;
 }
 
-@media (max-width: 290px) {
+@media (max-width: 829px) {
   .appeal__slogan {
     margin-top: 50px;
     font-size: 35px;
@@ -1015,7 +1015,6 @@ button {
 
 @media (max-width: 829px) {
   .page__logo {
-    width: 50%;
     margin-left: 5%;
   }
 }
@@ -1028,10 +1027,9 @@ button {
 
 @media (max-width: 829px) {
   .main-nav {
-    order: 2;
     margin-top: 20px;
     position: relative;
-    width: 100%;
+    width: 20%;
     min-height: 250px;
     background-color: #FF4B32;
     padding: 0;
@@ -1046,7 +1044,6 @@ button {
 
 @media (max-width: 829px) {
   .nav-wrapper {
-    flex-wrap: wrap;
     justify-content: space-between;
   }
 }
@@ -1054,9 +1051,8 @@ button {
 @media (max-width: 829px) {
   .main-nav__toggle {
     position: absolute;
-    width: 100%;
+    width: 20%;
     height: 50px;
-    background-color: #fff;
     cursor: pointer;
     border: 0;
   }
