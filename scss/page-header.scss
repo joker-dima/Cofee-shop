@@ -25,14 +25,13 @@
         background-image: url("../img/background-tablet.png");
     }
 
-    @media (max-width: 1000px) {
-        background-image: url("../img/background-tablet-smal.png");
-    }
-
-    @media (max-width: 700px) {
-        background-image: url("../img/background- mobile.png");
+    @media (max-width: 829px) {
+        background-image: url("../img/background-mobile.png");
     }
 }
+
+
+
 
 .nav-wrapper {
     display: flex;
