@@ -60,11 +60,12 @@
   margin-top: auto;
   max-width: 370px;
   object-fit: cover;
+  align-self: center;
 }
 
 .shop__item img {
-  height: auto;
   max-width: 370px;
+  align-self: center;
 }
 
 .shop__order {

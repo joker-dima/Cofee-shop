@@ -139,6 +139,24 @@
   background-origin: content-box;
 }
 
+@media (max-width: 1439px) {
+  .page-header {
+    background-image: url("../img/background-tablet.png");
+  }
+}
+
+@media (max-width: 1000px) {
+  .page-header {
+    background-image: url("../img/background-tablet-smal.png");
+  }
+}
+
+@media (max-width: 700px) {
+  .page-header {
+    background-image: url("../img/background- mobile.png");
+  }
+}
+
 .nav-wrapper {
   display: flex;
 }
@@ -375,6 +393,7 @@
     opacity: 0.7;
     background-color: white;
     box-shadow: 0 8px 0 0 white, 0 16px 0 0 white;
+    transition: all 0.3s ease 0s;
   }
 }
 
@@ -499,6 +518,7 @@ button {
 
 @media (max-width: 1439px) {
   .appeal {
+    padding-bottom: 50px;
     padding-left: 64px;
   }
 }
@@ -651,11 +671,12 @@ button {
   margin-top: auto;
   max-width: 370px;
   object-fit: cover;
+  align-self: center;
 }
 
 .shop__item img {
-  height: auto;
   max-width: 370px;
+  align-self: center;
 }
 
 .shop__order {
@@ -991,6 +1012,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  justify-content: space-between;
   padding: 60px 147px 51px 147px;
 }
 

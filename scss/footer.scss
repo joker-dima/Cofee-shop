@@ -3,6 +3,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    justify-content: space-between;
     padding: 60px 147px 51px 147px;
 
     @media (min-width: 320px) {
