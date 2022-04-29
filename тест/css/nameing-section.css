@@ -1,0 +1,30 @@
+.nameing-section__heading {
+  margin: 0 auto;
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 43px;
+  line-height: 130%;
+  max-width: 445px;
+  margin-bottom: 20px;
+}
+
+.nameing-section__heading--left {
+  margin: 0;
+}
+
+.nameing-section__description {
+  display: block;
+  margin: 0 auto;
+  max-width: 609px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.nameing-section__description-left {
+  margin: 0;
+}
+/*# sourceMappingURL=nameing-section.css.map */

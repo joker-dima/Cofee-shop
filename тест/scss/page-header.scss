@@ -2,24 +2,24 @@
 
 
 
-.header-wrapper {
-    @media (min-width: 1440px) {
-        padding: 1rem calc(50% - 720px);
-        padding-bottom: 0;
-        padding-top: 0;
-        background-color: black;
-    }
-}
-
 .page-header {
+
     background-color: black;
     color: white;
     margin: 0;
 
-    background-image: url("../img/background.png");
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-origin: content-box;
+
+
+    @media (min-width: 1440px) {
+        padding: 1rem calc(50% - 575px);
+        padding-top: 0;
+
+    }
+
+    @media (max-width: 1439px) {
+        min-width: 640px;
+        padding: 0 64px;
+    }
 
 
 }
@@ -36,16 +36,6 @@
         min-width: 280px;
     }
 
-    @media (min-width: 830px) {
-        min-width: 640px;
-        padding: 0 64px;
-    }
-
-    @media (min-width: 1440px) {
-        padding: 1rem calc(50% - 575px);
-        padding-top: 0;
-        padding-bottom: 13px;
-    }
 
     @media (max-width: 829px) {
         justify-content: space-between;

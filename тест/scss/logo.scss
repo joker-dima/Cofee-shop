@@ -1,0 +1,34 @@
+.page__logo {
+    position: relative;
+    height: 50px;
+    display: flex;
+    margin-top: 50px;
+    margin-right: auto;
+    text-decoration: none;
+
+    img {
+        width: 50px;
+        height: 50px;
+    }
+
+    @media (max-width: 829px) {
+        margin-top: 20px;
+        margin-left: 5%;
+    }
+
+
+    @media (max-width: 1439px) {
+        margin-right: 0;
+    }
+}
+
+
+.logo__title {
+    font-family: 'Josefin Sans';
+    color: #FF4B32;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    margin-top: 19px;
+    margin-left: 11px;
+}

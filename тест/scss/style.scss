@@ -48,3 +48,15 @@
 // COPYRIGHT
 
 @import "copyright.scss";
+
+
+.header-wrapper {
+
+    @media (min-width: 1440px) {
+        padding-right: 40%;
+        background-image: url("../img/background.png");
+        background-position: bottom right;
+        background-repeat: no-repeat;
+        background-origin: content-box;
+    }
+}

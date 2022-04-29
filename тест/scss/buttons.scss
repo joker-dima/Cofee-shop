@@ -1,0 +1,45 @@
+// BUTTONS ZEROING OUT
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+
+}
+
+// TOGGLE_BUTTONS
+
+.button {
+    border-radius: 5px;
+    background: #FF4B32;
+    padding: 15px 30px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover {
+        background: #fc2408;
+    }
+}
+
+.button-adaptive {
+    padding: 19px 35px;
+}
+
+
+.toggle__button {
+    img {
+        width: 46;
+        height: 46;
+    }
+}
+
+.toggle__button--dissabled {
+    opacity: 0.6;
+}

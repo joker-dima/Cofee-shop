@@ -120,19 +120,11 @@
   padding: 0 30px;
 }
 
-@media (min-width: 1440px) {
-  .header-wrapper {
-    padding: 1rem calc(50% - 720px);
-    padding-bottom: 0;
-    padding-top: 0;
-    background-color: black;
-  }
-}
-
 .page-header {
   background-color: black;
   color: white;
   margin: 0;
+  width: 100%;
   background-image: url("../img/background.png");
   background-position: bottom right;
   background-repeat: no-repeat;
