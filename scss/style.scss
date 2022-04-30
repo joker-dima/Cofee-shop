@@ -68,7 +68,7 @@
     }
 
 
-    @media (min-width: 831px) {
+    @media (min-width: 830px) {
 
         min-width: 640px;
         padding: 0 64px;
@@ -96,7 +96,7 @@
         gap: 40px
     }
 
-    @media (max-width: 830px) {
+    @media (max-width: 829px) {
         gap: 50px;
         flex-direction: column;
         align-items: center;
@@ -178,12 +178,21 @@
     .nameing-section__heading {
         width: 50%;
 
+        @media (max-width: 829px) {
+            width: 100%;
+        }
     }
 
     .toggle {
         width: 50%;
         text-align: right;
         margin-top: 5px;
+
+        @media (max-width: 829px) {
+            order: 2;
+            width: 100%;
+            text-align: center;
+        }
 
     }
 

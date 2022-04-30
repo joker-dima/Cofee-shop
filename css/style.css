@@ -1094,7 +1094,7 @@ button {
   }
 }
 
-@media (min-width: 831px) {
+@media (min-width: 830px) {
   .shop {
     min-width: 640px;
     padding: 0 64px;
@@ -1129,7 +1129,7 @@ button {
   }
 }
 
-@media (max-width: 830px) {
+@media (max-width: 829px) {
   .shop__wrapper {
     gap: 50px;
     flex-direction: column;
@@ -1198,10 +1198,24 @@ button {
   width: 50%;
 }
 
+@media (max-width: 829px) {
+  .nameing-section__toggle .nameing-section__heading {
+    width: 100%;
+  }
+}
+
 .nameing-section__toggle .toggle {
   width: 50%;
   text-align: right;
   margin-top: 5px;
+}
+
+@media (max-width: 829px) {
+  .nameing-section__toggle .toggle {
+    order: 2;
+    width: 100%;
+    text-align: center;
+  }
 }
 
 .nameing-section__toggle .toggle__button:first-child {
