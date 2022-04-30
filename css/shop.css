@@ -33,6 +33,12 @@
   margin-bottom: 140px;
 }
 
+@media (max-width: 1439px) {
+  .shop__wrapper {
+    justify-content: space-evenly;
+  }
+}
+
 @media (max-width: 1179px) {
   .shop__wrapper {
     gap: 40px;
@@ -43,7 +49,7 @@
   .shop__wrapper {
     gap: 50px;
     flex-direction: column;
-    align-content: space-evenly;
+    align-items: center;
   }
 }
 
@@ -60,7 +66,6 @@
   margin-top: auto;
   max-width: 370px;
   object-fit: cover;
-  align-self: center;
 }
 
 .shop__item img {

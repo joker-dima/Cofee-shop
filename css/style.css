@@ -440,7 +440,7 @@
 @media (max-width: 829px) {
   .page__logo {
     margin-top: 20px;
-    margin-left: 5%;
+    margin-left: 12px;
   }
 }
 
@@ -458,6 +458,12 @@
   line-height: 130%;
   margin-top: 19px;
   margin-left: 11px;
+}
+
+@media (max-width: 829px) {
+  .logo__title {
+    display: none;
+  }
 }
 
 button {
@@ -638,6 +644,12 @@ button {
   margin-bottom: 140px;
 }
 
+@media (max-width: 1439px) {
+  .shop__wrapper {
+    justify-content: space-evenly;
+  }
+}
+
 @media (max-width: 1179px) {
   .shop__wrapper {
     gap: 40px;
@@ -648,7 +660,7 @@ button {
   .shop__wrapper {
     gap: 50px;
     flex-direction: column;
-    align-content: space-evenly;
+    align-items: center;
   }
 }
 
@@ -665,7 +677,6 @@ button {
   margin-top: auto;
   max-width: 370px;
   object-fit: cover;
-  align-self: center;
 }
 
 .shop__item img {

@@ -15,7 +15,7 @@
 @media (max-width: 829px) {
   .page__logo {
     margin-top: 20px;
-    margin-left: 5%;
+    margin-left: 12px;
   }
 }
 
@@ -33,5 +33,11 @@
   line-height: 130%;
   margin-top: 19px;
   margin-left: 11px;
+}
+
+@media (max-width: 829px) {
+  .logo__title {
+    display: none;
+  }
 }
 /*# sourceMappingURL=logo.css.map */

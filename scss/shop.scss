@@ -31,6 +31,10 @@
     justify-content: space-between;
     margin-bottom: 140px;
 
+    @media (max-width: 1439px) {
+        justify-content: space-evenly;
+    }
+
     @media (max-width: 1179px) {
         gap: 40px
     }
@@ -38,7 +42,8 @@
     @media (max-width: 830px) {
         gap: 50px;
         flex-direction: column;
-        align-content: space-evenly
+        align-items: center;
+
     }
 
 }
@@ -58,7 +63,6 @@
     margin-top: auto;
     max-width: 370px;
     object-fit: cover;
-    align-self: center;
 
     img {
         max-width: 370px;
