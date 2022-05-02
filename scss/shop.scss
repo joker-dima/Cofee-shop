@@ -1,128 +1,153 @@
-// // SHOP
+.shop {
+    margin-top: 140px;
+    padding-left: 50px;
+
+    @media (max-width: 829px) {
+        margin-top: 40px;
+    }
+
+    @media (min-width: 320px) {
+        min-width: 280px;
+        padding: 0 20px;
+
+    }
 
 
-// .shop {
-//     margin-top: 140px;
-//     padding-left: 50px;
+    @media (min-width: 830px) {
 
-//     @media (min-width: 320px) {
-//         min-width: 280px;
-//         padding: 0 20px;
-//     }
+        min-width: 640px;
+        padding: 0 64px;
+    }
 
+    @media (min-width: 1440px) {
+        padding: 1rem calc(50% - 575px);
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
 
-//     @media (min-width: 831px) {
+.shop__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    justify-content: space-between;
+    margin-bottom: 140px;
 
-//         min-width: 640px;
-//         padding: 0 64px;
-//     }
+    @media (max-width: 1439px) {
+        justify-content: space-evenly;
 
-//     @media (min-width: 1440px) {
-//         padding: 1rem calc(50% - 575px);
-//         padding-top: 0;
-//         padding-bottom: 0;
-//     }
-// }
+    }
 
-// .shop__wrapper {
-//     display: flex;
-//     flex-wrap: wrap;
-//     margin-top: 60px;
-//     justify-content: space-between;
-//     margin-bottom: 140px;
+    @media (max-width: 1179px) {
+        gap: 40px
+    }
 
-//     @media (max-width: 1439px) {
-//         justify-content: space-evenly;
-//     }
+    @media (max-width: 829px) {
+        gap: 50px;
+        flex-direction: column;
+        align-items: center;
 
-//     @media (max-width: 1179px) {
-//         gap: 40px
-//     }
+    }
 
-//     @media (max-width: 830px) {
-//         gap: 50px;
-//         flex-direction: column;
-//         align-items: center;
+}
 
-//     }
+.shop__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
-// }
-
-// .shop__list {
-//     margin: 0;
-//     padding: 0;
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: space-between;
-
-// }
+}
 
 
-// .shop__item {
-//     list-style: none;
-//     margin-top: auto;
-//     max-width: 370px;
-//     object-fit: cover;
+.shop__item {
+    list-style: none;
+    margin-top: auto;
+    max-width: 370px;
+    object-fit: cover;
 
-//     img {
-//         max-width: 370px;
-//         align-self: center;
+    img {
+        max-width: 370px;
+        align-self: center;
 
 
 
-//     }
+    }
 
-// }
-
-
-// // TABLE
-
-// .shop__order {
-//     display: flex;
-//     align-items: center;
-//     margin-top: 31px;
-// }
-
-// .shop-table {
-
-//     border-collapse: collapse;
-//     border: 1px solid black;
-//     border-radius: 2px;
-//     margin-right: 20px;
-
-//     font-family: 'Roboto';
-//     font-style: normal;
-//     font-weight: 500;
-//     font-size: 21px;
-
-//     & td:nth-of-type(1) {
-//         width: 53.5px;
-//         height: 22px;
-//         text-align: center;
-//     }
-
-//     & td:nth-of-type(2) {
-//         height: 22px;
-//         text-align: center;
-//     }
-// }
-
-// // TOGGLE
+}
 
 
-// .nameing-section__toggle {
-//     display: flex;
-//     margin-bottom: 20px;
-//     margin-left: 0;
-//     margin-right: 0;
-// }
+// TABLE
 
-// .toggle {
-//     width: 116px;
-//     margin-left: auto;
-//     margin-top: 5px;
-// }
+.shop__order {
+    display: flex;
+    align-items: center;
+    margin-top: 31px;
+}
 
-// .toggle__button:first-child {
-//     margin-right: 20px;
-// }
+.shop-table {
+
+    border-collapse: collapse;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin-right: 20px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+
+    & td:nth-of-type(1) {
+        width: 53.5px;
+        height: 22px;
+        text-align: center;
+    }
+
+    & td:nth-of-type(2) {
+        height: 22px;
+        text-align: center;
+    }
+}
+
+// TOGGLE
+
+
+.nameing-section__toggle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+
+
+    .nameing-section__heading {
+        width: 50%;
+
+        @media (max-width: 829px) {
+            width: 100%;
+        }
+    }
+
+    .toggle {
+        width: 50%;
+        text-align: right;
+        margin-top: 5px;
+
+        @media (max-width: 829px) {
+            order: 2;
+            width: 100%;
+            text-align: center;
+        }
+
+    }
+
+    .toggle__button:first-child {
+        margin-right: 20px;
+    }
+
+    .nameing-section__description {
+        margin-top: 20px;
+    }
+}
