@@ -187,6 +187,8 @@
 .cart {
   display: flex;
   margin-left: 38px;
+  text-decoration: none;
+  color: white;
 }
 
 .cart img {
