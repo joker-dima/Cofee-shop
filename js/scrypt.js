@@ -26,6 +26,3 @@ searchIcon.addEventListener("click", function () {
     searchSubmit.classList.toggle('search__submit');
 
 });
-
-
-
