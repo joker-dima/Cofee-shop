@@ -1234,9 +1234,10 @@ button {
 .search-iput--open {
   display: block;
   position: absolute;
-  right: 50px;
-  top: 12px;
+  right: 110px;
+  top: 10px;
   z-index: 2;
+  height: 32px;
 }
 
 .search__submit--hidden {
@@ -1248,10 +1249,15 @@ button {
   color: white;
   z-index: 3;
   position: absolute;
-  top: 13px;
+  top: 11px;
   right: 50px;
   background-color: #FF4B32;
-  height: 23px;
-  width: 62px;
+  height: 30px;
+  width: 60px;
+  border: solid white 1px;
+}
+
+.search__submit:hover {
+  background-color: #fc2408;
 }
 /*# sourceMappingURL=style.css.map */
