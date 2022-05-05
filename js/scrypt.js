@@ -15,7 +15,6 @@ navToggle.addEventListener('click', function () {
 
 });
 
-
 //SEARCH MENU
 
 let searchInput = document.querySelector(".visually-hidden--none");
