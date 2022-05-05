@@ -53,6 +53,7 @@
                             <a href="#">Contact</a>
                         </li>
 
+
                     </ul>
                 </nav>
 
@@ -60,13 +61,16 @@
 
                     <a href="#" class="search">
                         <img src="img/search-icon.svg" alt="Search icon" class="search__icon" width="49" height="49">
-                        <input type="search" class="search-iput--open visually-hidden--none">
-                        <button class="search__submit search__submit--hidden" type="button">Search</button>
+                        <form method="get" action="#">
+                            <input type="text" name="search-result" value="" class="visually-hidden--none"
+                                placeholder="Your request">
+                            <button class="search__submit--hidden" type="submit">Search</button>
+                        </form>
                     </a>
-                    <div class="cart">
+                    <a class="cart" href="#">
                         <img src="img/cart-icon.svg" alt="Cart icon" class="cart__icon" width="41" height="39">
                         <p class="cart__number">2</p>
-                    </div>
+                    </a>
                 </div>
 
             </div>

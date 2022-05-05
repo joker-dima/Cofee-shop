@@ -9,6 +9,10 @@
 
 @import "page-header.scss";
 
+// SEARCH
+
+@import "search.scss";
+
 // LOGO
 
 @import "logo.scss";
@@ -48,6 +52,8 @@
 // COPYRIGHT
 
 @import "copyright.scss";
+
+
 
 
 // SHOP
@@ -94,3 +100,4 @@
     height: 23px;
     width: 62px;
 }
+

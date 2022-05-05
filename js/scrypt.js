@@ -15,18 +15,14 @@ navToggle.addEventListener('click', function () {
 
 });
 
+//SEARCH MENU
 
-// SEARCH MENU
-
-let searchInput = document.querySelector(".search-iput--open");
-let searchSubmit = document.querySelector(".search__submit");
+let searchInput = document.querySelector(".visually-hidden--none");
+let searchSubmit = document.querySelector(".search__submit--hidden");
 let searchIcon = document.querySelector(".search__icon");
 
 searchIcon.addEventListener("click", function () {
     searchInput.classList.toggle('search-iput--open');
     searchSubmit.classList.toggle('search__submit');
 
-
 });
-
-
