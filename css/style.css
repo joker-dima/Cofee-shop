@@ -1169,7 +1169,7 @@ button {
   background-color: black;
 }
 
-.contacts {
+HEAD .contacts {
   background: url(../img/contacts-background-right.png) right no-repeat, url(../img/contacts-background.png) left no-repeat;
   display: block;
   background-color: black;
@@ -1180,14 +1180,14 @@ button {
 }
 
 @media (min-width: 320px) {
-  .contacts {
+  HEAD .contacts {
     min-width: 280px;
     padding: 0 20px;
   }
 }
 
 @media (min-width: 831px) {
-  .contacts {
+  HEAD .contacts {
     min-width: 640px;
     padding: 0 64px;
     padding-top: 50px;
@@ -1196,7 +1196,7 @@ button {
 }
 
 @media (min-width: 1440px) {
-  .contacts {
+  HEAD .contacts {
     padding: 1rem calc(50% - 575px);
     padding-top: 100px;
     padding-bottom: 100px;
