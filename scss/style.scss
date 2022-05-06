@@ -9,6 +9,10 @@
 
 @import "page-header.scss";
 
+// SEARCH
+
+@import "search.scss";
+
 // LOGO
 
 @import "logo.scss";
@@ -50,157 +54,108 @@
 @import "copyright.scss";
 
 
-// SHOP
+.contacts {
+    background: url(../img/contacts-background-right.png) right no-repeat,
+        url(../img/contacts-background.png) left no-repeat;
+    display: block;
+    background-color: black;
+    margin-bottom: 140px;
+    text-align: center;
+    padding-top: 100px;
+    max-height: 650px;
 
-
-.shop {
-    margin-top: 140px;
-    padding-left: 50px;
-
-    @media (max-width: 829px) {
-        margin-top: 40px;
-    }
 
     @media (min-width: 320px) {
         min-width: 280px;
         padding: 0 20px;
-
     }
 
 
-    @media (min-width: 830px) {
+    @media (min-width: 831px) {
 
         min-width: 640px;
         padding: 0 64px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     @media (min-width: 1440px) {
         padding: 1rem calc(50% - 575px);
-        padding-top: 0;
-        padding-bottom: 0;
-    }
-}
-
-.shop__wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 60px;
-    justify-content: space-between;
-    margin-bottom: 140px;
-
-    @media (max-width: 1439px) {
-        justify-content: space-evenly;
-    }
-
-    @media (max-width: 1179px) {
-        gap: 40px
-    }
-
-    @media (max-width: 829px) {
-        gap: 50px;
-        flex-direction: column;
-        align-items: center;
-
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 
 }
 
-.shop__list {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-}
-
-
-.shop__item {
-    list-style: none;
-    margin-top: auto;
-    max-width: 370px;
-    object-fit: cover;
-
-    img {
-        max-width: 370px;
-        align-self: center;
-
-
-
-    }
-
-}
-
-
-// TABLE
-
-.shop__order {
-    display: flex;
-    align-items: center;
-    margin-top: 31px;
-}
-
-.shop-table {
-
-    border-collapse: collapse;
-    border: 1px solid black;
-    border-radius: 2px;
-    margin-right: 20px;
-
-    font-family: 'Roboto';
+.contacts__link {
+    display: block;
+    font-family: 'Open Sans';
     font-style: normal;
-    font-weight: 500;
-    font-size: 21px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #FF4B32;
+    cursor: pointer;
+    margin-bottom: 25px;
 
-    & td:nth-of-type(1) {
-        width: 53.5px;
-        height: 22px;
-        text-align: center;
-    }
-
-    & td:nth-of-type(2) {
-        height: 22px;
-        text-align: center;
+    &:hover {
+        color: #fd381e;
     }
 }
 
-// TOGGLE
+.contacts__line {
+    width: 95px;
+    border: 1px solid #FF4B32;
+    margin: 0 auto;
+}
 
+.contacts__heading {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 43px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
 
-.nameing-section__toggle {
+.contacts__items {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.contacts__item {
+    text-decoration: none;
+    margin: 0;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #FFFFFF;
+
+    &:hover {
+        color: rgb(177, 177, 177);
+    }
+}
+
+.social {
+    max-width: 320px;
+    display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 auto;
 
-    .nameing-section__heading {
-        width: 50%;
-
-        @media (max-width: 829px) {
-            width: 100%;
-        }
+    a {
+        text-decoration: none;
     }
+}
 
-    .toggle {
-        width: 50%;
-        text-align: right;
-        margin-top: 5px;
-
-        @media (max-width: 829px) {
-            order: 2;
-            width: 100%;
-            text-align: center;
-        }
-
-    }
-
-    .toggle__button:first-child {
-        margin-right: 20px;
-    }
-
-    .nameing-section__description {
-        margin-top: 20px;
+.social__img {
+    &:hover {
+        fill: gray;
     }
 }
