@@ -37,6 +37,13 @@
   }
 }
 
+@media (max-width: 400px) {
+  .gallery__wrapper img {
+    width: 250px;
+    height: 100%;
+  }
+}
+
 .gallery {
   padding: 1rem;
 }

@@ -32,6 +32,14 @@
   }
 }
 
+@media (max-width: 830px) {
+  .contacts {
+    background: none;
+    background: url(../img/contacts-background-right.png) right no-repeat;
+    background-color: black;
+  }
+}
+
 .contacts__link {
   display: block;
   font-family: 'Open Sans';

@@ -79,6 +79,13 @@
   align-self: center;
 }
 
+@media (max-width: 400px) {
+  .shop__item img {
+    width: 250px;
+    height: 100%;
+  }
+}
+
 .shop__order {
   display: flex;
   align-items: center;
