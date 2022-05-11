@@ -534,6 +534,12 @@ button {
   cursor: pointer;
 }
 
+@media (max-width: 350px) {
+  .button {
+    font-size: 14px;
+  }
+}
+
 .button:hover {
   background: #fc2408;
 }
@@ -1041,6 +1047,12 @@ button {
   font-size: 24px;
   line-height: 150%;
   color: #FFFFFF;
+}
+
+@media (max-width: 400px) {
+  .contacts__item {
+    font-size: 16px;
+  }
 }
 
 .contacts__item:hover {
